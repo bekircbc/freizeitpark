@@ -44,10 +44,8 @@ $sizes: 350px, 500px, 450px;
 }
 
 .reset-show-more {
-  li {
-    a {
-      @include reset-list;
-    }
+  a {
+    @include reset-list;
   }
 }
 
@@ -59,4 +57,40 @@ $sizes: 350px, 500px, 450px;
 .button-cyan:hover {
   background-color: #b762c1;
   color: white;
+}
+
+//card turn--
+
+.card-turn {
+  transition: 1s;
+}
+
+.container-position {
+  position: relative;
+  perspective: 1000px;
+}
+
+.content-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.container:hover .front {
+  transform: rotateY(180deg);
+}
+
+.container:hover .back {
+  transform: rotateY(360deg);
 }

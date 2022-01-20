@@ -14,249 +14,286 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon (2).ico" />
   </head>
   <body>
-    <section>
-      <div class="row g-1">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Enter email"
-          name="email"
-        />
-      </div>
-      <div class="row g-1">
-        <input
-          type="password"
-          class="form-control"
-          placeholder="Enter password"
-          name="pswd"
-        />
-      </div>
-      <div class="row g-1">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Enter email"
-          name="email"
-        />
-      </div>
-      <div class="row">
-        <input
-          type="password"
-          class="form-control"
-          placeholder="Enter password"
-          name="pswd"
-        />
-      </div>
-      <div class="row">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Enter email"
-          name="email"
-        />
-      </div>
-      <div class="row">
-        <input
-          type="password"
-          class="form-control"
-          placeholder="Enter password"
-          name="pswd"
-        />
-      </div>
 
+    <header class="container-fluid bgcolor-indigo row p-1">
 
-
-    </form>
-
-  </div>
-<div>
-  <h2>Contact Us!</h2>
-  <!-- form -->
-  <form action="https://formspree.io/f/mrgjzyrq" method="post">
-      <legend>Enter your details!</legend>
-      <label for="name">Tell us who you are...</label><br>
-      <input type="text" id="name" name="name"
-      placeholder="Please fill in your full name"><br>
-      <label for="email">Tell us how to contact you...</label><br>
-      <input type="email" id="email" name="email"
-      placeholder="Please enter your email"><br>
-      <label for="questions">How can we help you?</label>
-      <textarea name="questions" id="questions" cols="20" rows="5"
-      placeholder="Send us a message"></textarea>
-  <button class="submit-btn">Submit</button>
-  </div>
-    </section>
-
-    <section>
-      <section class="container">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">Most Popular Park Visit Option</h2>
-        </div>
-
-        <div class="row-l-12">
-          <div class="col col-l-4">
-            <div class="card">
-              <div class="card__side card__side--front">
-                <div class="card__picture card__picture--1">&nbsp;</div>
-                <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1"
-                    >The Sea Explorer</span
-                  >
-                </h4>
-                <div class="card__details">
-                  <ul>
-                    <li>3 day tours</li>
-                    <li>Up to 30 people</li>
-                    <li>2 tour guides</li>
-                    <li>Sleep in cozy hotels</li>
-                    <li>Difficulty: easy</li>
-                  </ul>
-                </div>
+      <section>
+        <nav class="navbar navbar-light">
+          <div class="container-fluid">
+            <h1 class="p-2"><img src="/images/favicon (2).ico" alt="logo" style="height:30px">
+              <abbr title="Mahir, Tarik Ulas and Gölge Land">Matugiland</abbr></h1>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="p-2 offcanvas-title" id="offcanvasNavbarLabel"><img src="/images/favicon (2).ico" alt="logo" style="height:15px">
+                  <abbr title="Mahir, Tarik Ulas and Gölge Land">Matugiland</abbr></h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
               </div>
-              <div class="card__side card__side--back card__side--back-1">
-                <div class="card__cta">
-                  <div class="card__price-box">
-                    <p class="card__price-only">Only</p>
-                    <p class="card__price-value">$297</p>
-                  </div>
-                  <a href="#popup" class="btn btn--white">Book now!</a>
-                </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Matugiland Club</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="signin.html">Sign In</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Create an Account</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="offcanvasNavbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Our Hotels
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="offcanvasNavbarDropdown"
+                    >
+                      <li><a class="dropdown-item" href="#">Hotel Istanbul</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Overlook Hotel</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Continental Hotel</a>
+                      </li>
+                    </ul>
+          
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="offcanvasNavbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Our Parks
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="offcanvasNavbarDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#">Matugiland Freizeitpark</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Matugiland Trekkingpark</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Matugiland Naturpark</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Matugiland Watersportpark</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Matugiland Camping</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Matugiland Kletternwald</a>
+                    </li>
+                  </ul>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="offcanvasNavbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Offers
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="offcanvasNavbarDropdown"
+                    >
+                      <li><a class="dropdown-item" href="#">Matugiland Club Card</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Multipark Ticket</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Weekend Offer</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Halloween Ticket</a>
+                      </li>
+                    </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
               </div>
             </div>
           </div>
-
-          <div class="col col-l-4">
-            <div class="card">
-              <div class="card__side card__side--front">
-                <div class="card__picture card__picture--2">&nbsp;</div>
-                <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--2"
-                    >The Forest Hiker</span
-                  >
-                </h4>
-                <div class="card__details">
-                  <ul>
-                    <li>7 day tours</li>
-                    <li>Up to 40 people</li>
-                    <li>6 tour guides</li>
-                    <li>Sleep in provided tents</li>
-                    <li>Difficulty: medium</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card__side card__side--back card__side--back-2">
-                <div class="card__cta">
-                  <div class="card__price-box">
-                    <p class="card__price-only">Only</p>
-                    <p class="card__price-value">$497</p>
-                  </div>
-                  <a href="#popup" class="btn btn--white">Book now!</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-l-4">
-            <div class="card">
-              <div class="card__side card__side--front">
-                <div class="card__picture card__picture--3">&nbsp;</div>
-                <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--3"
-                    >The Snow Adventurer</span
-                  >
-                </h4>
-                <div class="card__details">
-                  <ul>
-                    <li>5 day tours</li>
-                    <li>Up to 15 people</li>
-                    <li>3 tour guides</li>
-                    <li>Sleep in provided tents</li>
-                    <li>Difficulty: hard</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card__side card__side--back card__side--back-3">
-                <div class="card__cta">
-                  <div class="card__price-box">
-                    <p class="card__price-only">Only</p>
-                    <p class="card__price-value">$897</p>
-                  </div>
-                  <a href="#popup" class="btn btn--white">Book now!</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="u-center-text u-margin-top-huge">
-          <a href="#" class="btn btn--green">Discover all tours</a>
-        </div>
+        </nav>
       </section>
+
+    </header>
+
+
+
+<main class="container my-5">
+
+  <section class="container">
+    <div class="row gy-5">
+
+  <div class="container container-position col-sm-12 col-md-6 col-lg-4">
+    <div class="card front content-position card-turn p-3 bg-light border">
+    <h2>Vacation Planner</h2>
+    <img class="mb-2" src="images/carousel-1.png" alt="">
+    <div>
+      <h4>Awesome Experience</h4>
+      <p>Each member in your party is required to have both a 
+        valid ticket and park reservation for the same park on 
+        the same date.</p>
+        <a href="reservation.html">
+      <button class="btn button-cyan">Find Rates</button></a>
+      <a href="details.html">
+      <button class="btn button-cyan">Park Details</button></a>
+    </div>
+  </div>
+  <div class="card back content-position card-turn">
+    <h1>Park Regulations</h1>
+  </div>
+  </div>
+
+  <!--About uns -->
+
+
+
+  <!-- Reservations and Planning Guide -->
+
+
+  <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="card p-3 border bg-light">
+    <h2>Planning Guide</h2>
+    <img class="mb-2" src="images/carousel-2.png" alt="">
+    <div>
+      <h4>Ticket & Reservations</h4>
+      <p>Each member in your party is required to have both a 
+        valid ticket and park reservation for the same park on 
+        the same date.</p>
+        <a href="tickets.html">
+      <button class="btn button-cyan">Ticket Reservation Details</button></a>
+    </div>
+  </div>
+</div>
+
+  <!-- Offers -->
+
+
+
+  <div class="col-sm-12 col-lg-4">
+    <div class="card p-3 border bg-light">
+    <h2>Offers</h2>
+    <img class="mb-2" src="images/carousel-5.png" alt="">
+    <div>
+      <h4>Don't miss!</h4>
+      <p>Experience our Multipark Ticket, Family Ticket, Happy Birthday Ticket.
+        park reservation for the same park on 
+        the same date.
+      </p>
+      <a href="reservation.html">
+      <button class="btn button-cyan">Book Now</button></a>
+    </div>
+  </div>
+  </div>
+    </div>
     </section>
 
-    <section>
-      <section class="container">
-        <div class="row">
-          <h2 class="heading-secondary">About uns</h2>
-        </div>
 
-        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-          <div class="col">
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              You're going to fall in love with nature
-            </h3>
-            <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
-              quam nisi exercitationem omnis earum qui.
-            </p>
+  <!-- Awesome Experience -->
+  <section class="row text-align-center">
+    <h2 class="my-4 px-4">Awesome Experience with Our Special Hotels</h2>
+  </section>
 
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              Live adventures like you never have before
-            </h3>
-            <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores nulla deserunt voluptatum nam.
-            </p>
+  <section class="container">
+    <div class="row gy-5">
 
-            <a href="#" class="btn-text">Learn more &rarr;</a>
-          </div>
-          <div class="col">
-            <div class="composition">
-              <img
-                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
-                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                alt="Photo 1"
-                class="composition__photo composition__photo--p1"
-                src="img/nat-1-large.jpg"
-              />
+  <div class="container container-position col-sm-12 col-md-6 col-lg-4">
 
-              <img
-                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
-                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                alt="Photo 2"
-                class="composition__photo composition__photo--p2"
-                src="img/nat-2-large.jpg"
-              />
+    <div class="card front content-position card-turn p-3 bg-light border">
+        <img class="mt-2 mb-4" src="images/hotel-2.png" alt="Prinz" />
+        <p class="p-2">
+          <strong>Hotel Istanbul</strong><br />
+        </p>
+      </div>
+      <div class="card back content-position card-turn"><p class="p-2">
+        <strong>Hotel Istanbul</strong><br />
+      Price: <strong>€1500</strong><br/>
+      <a href="reservation.html">
+      <button class="btn button-cyan my-3">Book Now</button></a>
+    </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card p-3 bg-light border">
+        <img class="d-none d-sm-block d-md-none" src="images/hotel-3.png" alt="Prinz" />
+        <p class="p-2">
+          <strong>Overlook Hotel</strong><br />
+          7 days (includes Park Visits)<br/>
+          Price: <strong>€1200</strong><br/>
+          <a href="reservation.html">
+          <button class="btn button-cyan my-2">Book Now</button></a>
+        </p>
+        <img class="d-none d-md-block" src="images/hotel-3.png" alt="Prinz" />
 
-              <img
-                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
-                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                alt="Photo 3"
-                class="composition__photo composition__photo--p3"
-                src="img/nat-3-large.jpg"
-              />
+      </div>
+      </div>
+<div class="col-sm-12 col-lg-4">
+    <div class="card p-3 bg-light border">
+        <img class="mt-2 mb-4" src="images/hotel-4.png" alt="Prinz" />
+        <p class="p-2"> 
+          <strong>Continental Hotel</strong><br />
+          7 days (includes Park Visits)<br/>
+          Price: <strong>$€1000</strong><br/>
 
-              <!--
-                    <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                    <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                    <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
-                    -->
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
+          <a href="reservation.html">
+          <button class="btn button-cyan my-2">Book Now</button></a>
+        </p>
+
+      </div>
+      </div>
+</div>
+  <!-- Product Information -->
+</main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

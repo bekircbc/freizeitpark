@@ -2,9 +2,11 @@
 
 - Matugiland (Mahir, Tarik Ulas and Gölge Land)
 
+- https://bekircbc.github.io/freizeitpark/
+
 # Coded by Bekir Cebeci
 
-- i dedicate this site to my sons (Mahir and Tarik Ulas) and our cat (Gölge).
+- I dedicate this site to my sons (Mahir and Tarik Ulas) and our cat (Gölge).
 
 # Project Start : 17.01.2022
 
