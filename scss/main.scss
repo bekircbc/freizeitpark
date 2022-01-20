@@ -1,0 +1,62 @@
+$colormap: (
+  "indigo": #7c99ac,
+  "paper": #e1e1e5,
+  "cyan": #ffefef,
+  "grey": #848484,
+);
+
+$sizes: 350px, 500px, 450px;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@each $size in $sizes {
+  .width-#{$size} {
+    width: $size;
+  }
+}
+
+@each $key, $color in $colormap {
+  .bgcolor-#{$key} {
+    background-color: $color;
+  }
+}
+
+@each $key, $color in $colormap {
+  .button-#{$key} {
+    background-color: $color;
+  }
+}
+
+@each $key, $color in $colormap {
+  .txtcolor-#{$key} {
+    color: $color;
+  }
+}
+
+@mixin reset-list {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.reset-show-more {
+  @include reset-list;
+}
+
+.reset-show-more {
+  li {
+    a {
+      @include reset-list;
+    }
+  }
+}
+
+.reset-show-more:hover {
+  text-decoration: underline;
+  color: #848484;
+}
+
+.button-cyan:hover {
+  background-color: #b762c1;
+  color: white;
+}
