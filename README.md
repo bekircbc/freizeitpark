@@ -2,7 +2,7 @@
 
 - Matugiland (Mahir, Tarik Ulas and Gölge Land)
 
-- https://bekircbc.github.io/freizeitpark/
+- freizeitpark.vercel.app
 
 # Coded by Bekir Cebeci
 
@@ -25,15 +25,3 @@
 - Favicon for Matugiland was created.
 
 - Responsive Web-design (sm>=576, md>=768, lg>=992px)
-
-# Components
-
-- index.html
-- tickets.html
-- registration.html
-- details.html
-- parkmap.html
-- signin.html
-- reservation.html
-- package.json
-- main.scss
