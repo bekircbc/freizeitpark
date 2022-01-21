@@ -2,7 +2,7 @@
 
 - Matugiland (Mahir, Tarik Ulas and Gölge Land)
 
-- freizeitpark.vercel.app
+- https://freizeitpark.vercel.app/
 
 # Coded by Bekir Cebeci
 
