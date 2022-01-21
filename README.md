@@ -28,4 +28,4 @@
 
 # Pages
 
-! (src/assets/github_images/homepage.png)
+![](src/assets/github_images/homepage.png)
