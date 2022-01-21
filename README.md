@@ -25,3 +25,7 @@
 - Favicon for Matugiland was created.
 
 - Responsive Web-design (sm>=576, md>=768, lg>=992px)
+
+# Pages
+
+! (src/assets/github_images/homepage.png)
